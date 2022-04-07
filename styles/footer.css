@@ -1,0 +1,72 @@
+.footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#0f0f0fa8));
+  background-image: linear-gradient(#f6f6f6, #0f0f0fa8);
+  padding: 0 0 20px 0;
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+}
+
+.footer .social {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .social .fa {
+  width: 4rem;
+  height: 4rem;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-radius: 40%;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: white;
+  margin: 1.5rem;
+  text-decoration: none;
+}
+
+.footer .social .fa-facebook {
+  background: #3b5998;
+  font-size: 20px;
+}
+
+.footer .social .fa-facebook:hover {
+  background: white;
+  color: #3b5998;
+}
+
+.footer .social .fa-instagram {
+  background: #833AB4;
+  font-size: 20px;
+}
+
+.footer .social .fa-instagram:hover {
+  background: white;
+  color: #833AB4;
+}
+
+.footer .social .fa-linkedin {
+  background: #0e76a8;
+  font-size: 20px;
+}
+
+.footer .social .fa-linkedin:hover {
+  background: white;
+  color: #0e76a8;
+}
+
+.footer .madeby {
+  font-size: 1rem;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}

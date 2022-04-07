@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+.promo {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  background: #F6F6F6;
+}
+
+.promo .head {
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  z-index: 11;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a7a3a370), to(#0f0f0f00));
+  background-image: linear-gradient(#a7a3a370, #0f0f0f00);
+  display: -ms-grid;
+  display: grid;
+  gap: 0px;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+}
+
+.promo .head a {
+  position: relative;
+  border-radius: 7px;
+  margin: 50px;
+  padding: 10px;
+  color: #F6F6F6;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  text-shadow: 2px 2px 2.5px #f6f6f69f;
+}
+
+.promo .head a:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 1s;
+  transition: 1s;
+  font-size: 20px;
+}
+
+.promo video {
+  width: 100%;
+  height: 100%;
+}
+
+.promo .name {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 100px;
+  padding: 170px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-grid;
+  display: grid;
+}
+
+.promo .motto {
+  font-size: 30px;
+  font-family: 'Patrick Hand', cursive;
+  color: white;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  z-index: 10;
+  text-align: center;
+  top: 320px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
