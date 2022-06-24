@@ -1,1 +1,1 @@
-# lantolus.github.io
+# slanske.github.io
