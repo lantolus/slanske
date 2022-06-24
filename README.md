@@ -1,1 +1,1 @@
-# slanske.github.io
+# slanske
